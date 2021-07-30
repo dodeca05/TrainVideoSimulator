@@ -7,6 +7,8 @@
 
 현재 영상은 cv2의 기본 뷰어로 나타내고 있습니다. pyqt로 작업하고 싶었지만 계속 프리징이 걸리는 문제를 겪고 있습니다. 다른 도구 찾거나 이 문제를 해결하기 까지 시간이 오래 걸릴것 같습니다.
 
+[exe 파일 다운로드](https://drive.google.com/file/d/1o-tUxHc3aJK4kx4WMddJYW4586wiged_/view?usp=sharing)
+
 ## 알림사항
 
 + 아직까지 소리가 구현되지 않았습니다.
