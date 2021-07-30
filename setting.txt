@@ -1,0 +1,11 @@
+videoPath=
+mod=cv2
+debug=True
+maxSpeed=300
+maxAcceleration=1.7
+trainMaxSpeed=320
+trainAcceleration=1.7
+trainBreak=4
+driveData
+
+
