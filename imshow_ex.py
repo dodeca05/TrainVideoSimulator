@@ -11,7 +11,7 @@ font=cv2.FONT_HERSHEY_SIMPLEX
 
 
 
-def in_game(maxSpd=160,maxAcc=5,videoPath='test.mp4',trainMaxSpd=160,trainAcc=5,debug=False):
+def in_game(maxSpd=160,maxAcc=5,videoPath='test.mp4',trainMaxSpd=160,trainAcc=5,debug=False,w=-1,h=-1):
         print(maxSpd,maxAcc)
         cap = cv2.VideoCapture(videoPath) 
         
@@ -72,6 +72,8 @@ def in_game(maxSpd=160,maxAcc=5,videoPath='test.mp4',trainMaxSpd=160,trainAcc=5,
                     cur+=temp
                     cap.set(cv2.CAP_PROP_POS_FRAMES,cur)
                     ret, frame = cap.read()
+                if w!=-1 and h!=-1:
+                    frame=cv2.resize(frame, dsize=(w, h), interpolation=cv2.INTER_AREA)
                 original_frame=copy.deepcopy(frame)
             else:
                 frame=copy.deepcopy(original_frame)

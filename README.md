@@ -7,7 +7,9 @@
 
 현재 영상은 cv2의 기본 뷰어로 나타내고 있습니다. pyqt로 작업하고 싶었지만 계속 프리징이 걸리는 문제를 겪고 있습니다. 다른 도구 찾거나 이 문제를 해결하기 까지 시간이 오래 걸릴것 같습니다.
 
-[exe 파일 다운로드](https://drive.google.com/file/d/1o-tUxHc3aJK4kx4WMddJYW4586wiged_/view?usp=sharing)
+[exe 파일 + 데모 다운로드](https://drive.google.com/file/d/12mkl6reap9PIbLytNJZlc6UZZi7_QrU8/view?usp=sharing)
+
+[exe 파일 다운로드](https://drive.google.com/file/d/1sA6ROPP43gaemrFUR8Ew_OUWFSQh1TjJ/view?usp=sharing)
 
 ## 알림사항
 
@@ -158,3 +160,5 @@ ex)
 ## 노트
 + 2021-07-30
     + 최초 업로드
++ 2021-07-31
+    + 데모 추가

@@ -8,6 +8,8 @@ if __name__=="__main__":
     trainMaxSpd=160
     trainAcceleration=5
     debug=False
+    w=-1
+    h=-1
     f=open("setting.txt",'rt', encoding='UTF8')
     read_data=f.read().split('\n')
     while read_data[0].strip()!="driveData":
@@ -27,6 +29,10 @@ if __name__=="__main__":
         elif cmd[0]=="debug":
             if cmd[1].strip()=="True":
                 debug=True
+        elif cmd[0]=="width":
+            w=int(cmd[1])
+        elif cmd[0]=="hight":
+            h=int(cmd[1])
         read_data.remove(read_data[0])
     if videoPath[:4]=="http":
         print("유튜브 모드")
@@ -41,7 +47,7 @@ if __name__=="__main__":
     print(read_data)
     if mod=="cv2":
         import imshow_ex as g
-        g.in_game(maxSpeed,maxAcceleration,videoPath,trainMaxSpd,trainAcceleration,debug)
+        g.in_game(maxSpeed,maxAcceleration,videoPath,trainMaxSpd,trainAcceleration,debug,w,h)
     elif mod=="pyqt":
         import pyqt_ex as g
         g.startGame(maxSpeed,maxAcceleration,videoPath,trainMaxSpd,trainAcceleration)
