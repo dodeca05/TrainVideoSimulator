@@ -52,6 +52,11 @@ ex)
      mod=cv2
      또는
      mod=pyqt <<<<-비추천
+#### width hight
+해상도 입니다
+ex)
+     width=1280
+	 hight=720
 
  #### debug
  디버그 모드입니다. True로 할 경우 시뮬레이션전 철도의 속도 그래프와 거리 그래프를 matplotlib.pyplot에서 기본적으로 제공하는 뷰어로 볼 수 있습니다.

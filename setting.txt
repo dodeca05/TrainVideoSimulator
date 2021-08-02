@@ -1,4 +1,6 @@
-videoPath=
+videoPath=demo.mp4
+width=640
+hight=360
 mod=cv2
 debug=True
 maxSpeed=300
@@ -7,5 +9,18 @@ trainMaxSpeed=320
 trainAcceleration=1.7
 trainBreak=4
 driveData
+station "first station" 00:00 00:01 1 6.666 80
+acceleration 00:12 3.2 96
+speed 00:32 130 2.267
+station "second station" 01:18 01:26 9.3 6.666 80
+acceleration 01:40 2.5 130
+speed 02:00 130 2.15
+speed 02:53 94 7.2
+speed 03:06 82 7.1
+speed 03:21 99 1.9
+speed 03:25 61 9.5
+speed 03:45 72 2.8
+station "last staion" 03:52 03:53 10.3 0 0
+ 
 
 
